@@ -1,7 +1,4 @@
-#include <iostream>
-#include <algorithm>
-#include <vector>
-#include <climits>
+// Given the degrees of the tree hands in clock, return the possible time
 
 #define ll long long
 
