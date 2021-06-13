@@ -1,3 +1,5 @@
+// Sort diagonals of matrix
+
 vector<vector<int>> diagonalSort(vector<vector<int>>& mat) {
     int m = mat.size(), n = mat[0].size();
     if (m == 1 || n == 1) return mat;
