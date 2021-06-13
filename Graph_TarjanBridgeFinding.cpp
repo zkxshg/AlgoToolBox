@@ -1,12 +1,5 @@
-#include <iostream>
-#include <cstdlib>
-#include <ctime>
-#include <algorithm>
-#include <fstream>
-#include <sstream>
-#include <vector>
-#include <string>
-#include <unordered_map>
+// Return the bridges in graph
+// https://en.wikipedia.org/wiki/Bridge_(graph_theory)
 
 vector<int> id;
 vector<int> low;
