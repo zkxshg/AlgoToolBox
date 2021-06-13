@@ -1,3 +1,5 @@
+// LCS with backtracking the result
+
 int DP_LCS_Algorithm(int* A, int* B, int m, int n) {
     // 0 Initialize
     int** Benson1 = new int* [m];  
