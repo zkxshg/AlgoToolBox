@@ -1,3 +1,5 @@
+// Determine if char is a Vowel
+
 bool ifVowel(char c) {
     if (c == 'a' || c == 'A') return true;
     if (c == 'e' || c == 'E') return true;
