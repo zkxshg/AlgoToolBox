@@ -1,3 +1,5 @@
+// https://zh.wikipedia.org/wiki/%E5%B9%B6%E6%9F%A5%E9%9B%86
+
 unordered_map<int, int> p;
 
 int find(int a) {
