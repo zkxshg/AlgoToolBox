@@ -1,3 +1,5 @@
+// Combination of elements in nums sum to target
+
 void xSum(vector<int>& nums, vector<vector<int>>& sol, vector<int> temp, int target) {
     if (nums.size() >= 2) {
         int left = 0;
