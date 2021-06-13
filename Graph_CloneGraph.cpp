@@ -1,3 +1,5 @@
+// Return a deep copy (clone) of the Node graph.
+
 class Node {
 public:
     int val;
