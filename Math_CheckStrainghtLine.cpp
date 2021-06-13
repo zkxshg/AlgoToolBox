@@ -1,3 +1,5 @@
+// Determine if points in sets are in same one straight line
+
 bool checkStraightLine(vector<vector<int>>& coordinates) {
     int num = coordinates.size();
     if (num == 2) return true;
