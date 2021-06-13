@@ -1,3 +1,5 @@
+// https://en.wikipedia.org/wiki/Maximum_subarray_problem
+
 vector<int> Kanade(vector<int>& profit) {
     int len = profit.size();
     int start = 0, end = 0, tempPro = profit[0];
