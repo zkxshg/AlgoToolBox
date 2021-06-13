@@ -1,3 +1,5 @@
+// Return number of submatrices sum to  target
+
 int numSubmatrixSumTarget(vector<vector<int>>& matrix, int target) {
     int m = matrix.size(), n = matrix[0].size();
 
