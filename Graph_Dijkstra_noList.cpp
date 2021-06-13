@@ -1,3 +1,5 @@
+// https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+
 class Solution {
 public:
     int Dijkstra(int n, vector<vector<int>>& flights, int src, int dst, int K) {
