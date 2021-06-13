@@ -1,3 +1,4 @@
+// Longest Common subsequence in diagonal method
 
 vector<vector<int> > succTable(int* A, int m, int alpha) {
     int len = m;
