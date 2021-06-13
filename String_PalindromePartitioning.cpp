@@ -1,3 +1,5 @@
+// . Return all possible palindrome partitioning of s
+
 vector<vector<string>> partition(string s) {
     int len = s.size(); if (len < 2) return { {s} };
 
