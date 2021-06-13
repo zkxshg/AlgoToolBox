@@ -1,7 +1,4 @@
-#include <iostream>
-#include <algorithm>
-#include <vector>
-#include <climits>
+// Return Greatest Common Divisor by Euclidean algorithm
 
 #define ll long long
 
