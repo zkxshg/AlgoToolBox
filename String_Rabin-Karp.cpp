@@ -1,3 +1,6 @@
+// Rabin–Karp string-searching algorithm 
+// https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm
+
 bool RabinKarp(string s, vector<string>& wordDict) {
     int slen = s.size(), wlen = wordDict.size();
     if (slen == 0) return true;
