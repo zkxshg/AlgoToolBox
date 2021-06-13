@@ -1,11 +1,4 @@
-#include <iostream>
-#include <cstdlib>
-#include <ctime>
-#include <algorithm>
-#include <fstream>
-#include <sstream>
-#include <vector>
-#include <string>
+// Rotate matrix by 90 degrees (clockwise)
 
 #define M matrix
 
