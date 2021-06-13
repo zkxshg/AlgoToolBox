@@ -1,3 +1,5 @@
+// Return sum of submatrix [x1,y1]->[x2,y2] in O(1)
+
 vector<vector<int> > P;
 
 vector<vector<int>> getPsum(vector<vector<int>>& matrix) {
