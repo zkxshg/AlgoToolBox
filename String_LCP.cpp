@@ -1,4 +1,4 @@
-// Longest Conmmon Prefix
+// Longest Common Prefix
 // https://www.geeksforgeeks.org/longest-common-prefix-using-sorting/
 
 using namespace std;
