@@ -1,3 +1,5 @@
+// Using bit mask to generate all subsequences of string
+
 vector<string> generAll(string characters, int combinationLength) {
     int len = characters.size();
     int maskLen = 1 << len;
