@@ -1,14 +1,5 @@
-#include <iostream>
-#include <cstdlib>
-#include <ctime>
-#include <algorithm>
-#include <fstream>
-#include <sstream>
-#include <vector>
-#include <string>
-#include <cmath>
-#include <utility> 
-#include<unordered_map>
+// Longest Conmmon Prefix
+// https://www.geeksforgeeks.org/longest-common-prefix-using-sorting/
 
 using namespace std;
 
