@@ -1,3 +1,5 @@
+// Given a size k of a sliding window, return the max sliding window.
+
 vector<int> maxSlidingWindow(vector<int>& nums, int k) {
     int len = nums.size(); if (len == 1 || k == 1) return nums;
 
