@@ -1,3 +1,6 @@
+//  Minimum Spanning Tree
+// https://en.wikipedia.org/wiki/Prim%27s_algorithm
+
 int dist(vector<int> a1, vector<int> a2) {
     return abs(a1[0] - a2[0]) + abs(a1[1] - a2[1]);
 }
