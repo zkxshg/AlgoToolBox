@@ -1,3 +1,5 @@
+// Multiply large numbers in strings
+
 string multiply(string num1, string num2) {
     int len1 = num1.size();
     int len2 = num2.size();
