@@ -1,3 +1,5 @@
+// https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
+// Build prime filter to count the primes
 
 deque<bool> BuildPrimeTable(int n) {
     deque<bool> isPri(n + 1, true);
