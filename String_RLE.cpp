@@ -1,3 +1,6 @@
+// Run-length encoding to compress the String
+// https://en.wikipedia.org/wiki/Run-length_encoding
+
 int compress(vector<char>& chars) {
     int len = chars.size(); if (len < 2) return len;
 
