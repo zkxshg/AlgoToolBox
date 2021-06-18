@@ -1,4 +1,5 @@
-// ÕÒµ½Á´±íµÄÖÐµã
+// æ‰¾åˆ°é“¾è¡¨çš„ä¸­ç‚¹
+
 ListNode* getMid(ListNode* head) {
     if (!head || !head->next) return NULL;
 
