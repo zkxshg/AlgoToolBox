@@ -1,3 +1,5 @@
+// Given the head of a linked list, return the list in ascending order.
+
 struct ListNode {
 	int val;
 	ListNode* next;
