@@ -1,3 +1,5 @@
+// Internal reverse the Linked list
+
 ListNode* reverseLink(ListNode* node) {
     if (!(node->next)) return node;
     ListNode* nex = reverseLink(node->next);
