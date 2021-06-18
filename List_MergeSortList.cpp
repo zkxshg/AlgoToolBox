@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/merge-k-sorted-lists/
+// Sort linked list by internal merge sort
 
 struct ListNode {
 	int val;
