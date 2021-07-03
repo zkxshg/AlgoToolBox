@@ -4,7 +4,7 @@ int numSubmatrixSumTarget(vector<vector<int>>& matrix, int target) {
     int m = matrix.size(), n = matrix[0].size();
 
     // pre sum
-    vector<vector<int> > psum(m, vectot<int>(n));
+    vector<vector<int> > psum(m, vector<int>(n));
 
     for (int i = 0; i < n; i++) psum[0][i] = matrix[0][i]; // (0,i)
     // (i,j)
