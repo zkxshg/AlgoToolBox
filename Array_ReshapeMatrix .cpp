@@ -1,13 +1,4 @@
-#include <iostream>
-#include <cstdlib>
-#include <ctime>
-#include <algorithm>
-#include <fstream>
-#include <sstream>
-#include <vector>
-#include <string>
-
-#define M matrix
+// Reshape an m x n matrix into a new one with a different size r x c keeping its original data.
 
 vector<vector<int>> matrixReshape(vector<vector<int>>& mat, int r, int c) {
     int m = mat.size(), n = mat[0].size();
