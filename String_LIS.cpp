@@ -1,3 +1,5 @@
+// https://en.wikipedia.org/wiki/Longest_increasing_subsequence
+
 int lengthOfLIS(vector<int>& nums) {
     int len = nums.size(); if (len < 2) return len;
 
