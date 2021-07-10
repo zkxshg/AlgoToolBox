@@ -1,3 +1,5 @@
+// Given position of htree points, return the angular of (x3, y3) as mid point
+
 #define _USE_MATH_DEFINES
 #include <cmath>
 
