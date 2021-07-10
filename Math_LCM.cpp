@@ -1,3 +1,5 @@
+// https://en.wikipedia.org/wiki/Least_common_multiple
+
 int gcd(int m, int n) {
     int t = 1;
     while (t != 0) {
