@@ -1,3 +1,5 @@
+// Merge set of array bound
+
 int rectangleArea(vector<vector<int>>& rectangles) {
     ll ub = 1e9 + 1;
 
