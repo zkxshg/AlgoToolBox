@@ -14,7 +14,7 @@ ll qmul(ll x, ll y) {
         x = x * 2 % ub;
         y >>= 1;
     }
-    return ret;
+    return ret; // x * y
 }
 
 // 快速幂
@@ -25,25 +25,25 @@ ll qpow(ll a, ll b) {
         a = a * a % ub;
         b >>= 1;
     }
-    return res;
+    return res; // a^b
 }
 
 // 阶乘
 ll factorial(ll n) {
     ll fc = 1;
     for (int i = 1; i <= n; ++i) fc = qmul(fc, i, ub);
-    return fc;
+    return fc; // n!
 }
 
 // 组合数
 ll combo(ll n, ll m) {
     if (m == 0 || m == n) return 1;
     ll com = factorial(n) / qmul(factorial(m), factorial(n - m), ub);
-    return com;
+    return com; // C(m, n)
 }
 
 // 排列数
 ll permutation(ll n, ll m) {
     ll perm = factorial(n) / factorial(n - m);
-    return perm;
+    return perm; // A(m, n)
 }
