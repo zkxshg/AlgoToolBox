@@ -1,7 +1,6 @@
 // Using bit mask to generate all subsequences of string
 
-// Goal of Algorithm:
-The algorithm's purpose is to generate all subsequences of a given string characters of a specific length combinationLength.
+// Goal of Algorithm: generate all subsequences of a given string characters of a specific length combinationLength.
 
 // Input: a string characters and an integer combinationLength as inputs.
 // Output: a vector of strings, which are all the subsequences of characters of length combinationLength.
