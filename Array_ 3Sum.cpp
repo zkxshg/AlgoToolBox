@@ -1,7 +1,8 @@
 // Combination of elements in nums sum to target
 
 // This algorithm finds all the unique combinations of three numbers in a given array that sum up to the target.
-// Function threeSum():  takes an array of integers as input and returns all unique triplets where the sum of three elements equals the target.
+// Function threeSum():  takes an array of integers as input,
+// and returns all unique triplets where the sum of three elements equals the target.
 // Time Complexity: O(n^2). Space Complexity: O(n).
 
 // xSum() is a helper function that finds all combinations of two numbers in a list that sum to a target value.
