@@ -1,5 +1,12 @@
 // bit calculation:
 
+// Goal of Algorithm: compute the sum of two integers a and b using bit manipulation.
+
+// Input: two integers a and b as inputs.
+// Output: returns an integer which is the sum of a and b.
+
+// Time complexity: O(1). Space complexity: O(1).
+
 // a + b = while(b){ tem = (a ^ b); b = (a & b) << 1; a = tem; }
 
 class Solution {
