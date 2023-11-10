@@ -36,6 +36,7 @@ int subSum(vector<vector<int>>& ps, int x1, int y1, int x2, int y2) {
 }
 
 // getPsum function constructs a prefix sum matrix from the input matrix
+// Time complexity: O(mn). Space complexity: O(mn).
 vector<vector<int>> getPsum_Comm(vector<vector<int>>& matrix) {
     int m = matrix.size(), n = matrix[0].size();
 
@@ -61,7 +62,8 @@ vector<vector<int>> getPsum_Comm(vector<vector<int>>& matrix) {
     return psum;
 }
 
-// subSum function returns the sum of the submatrix bounded by (x1, y1) and (x2, y2) in the original matrix
+// subSum function returns the sum of the submatrix bounded by (x1, y1) and (x2, y2) in the original matrix.
+// Time complexity: O(1). Space complexity: O(1).
 int subSum_Comm(vector<vector<int>>& ps, int x1, int y1, int x2, int y2) {
     // Start with the pre-calculated sum up to (x2, y2)
     int res = ps[x2][y2];
