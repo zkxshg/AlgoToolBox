@@ -1,5 +1,12 @@
 // Return number of submatrices sum to  target
 
+// The algorithm's goal is to return the number of submatrices in a given 2D matrix whose elements sum up to a given target value.
+
+// Input: The algorithm takes as input a 2D vector of integers matrix and an integer target.
+// Output: The algorithm returns an integer which is the count of submatrices whose sum is equal to the target value.
+
+// Time complexity: O(n^2 * m). Space complexity: O(n * m).
+    
 int numSubmatrixSumTarget(vector<vector<int>>& matrix, int target) {
     int m = matrix.size(), n = matrix[0].size();
 
