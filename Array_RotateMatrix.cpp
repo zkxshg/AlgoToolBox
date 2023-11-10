@@ -1,5 +1,14 @@
 // Rotate matrix by 90 degrees (clockwise)
 
+// This algorithm is to rotate a given square matrix 90 degrees clockwise direction. 
+// The rotation is done in-place, meaning it doesn't create a new matrix to store the rotated matrix, 
+// but instead modifies the original matrix.
+
+// Input: The algorithm takes as input a 2D square matrix matrix.
+// Output: It modifies the input matrix itself to be the rotated version.
+
+// Time complexity: O(n^2). Space complexity: O(1).
+
 #define M matrix
 
 void rotate(vector<vector<int>>& matrix) {
