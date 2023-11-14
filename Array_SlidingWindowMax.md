@@ -1,4 +1,4 @@
-The algorithm in `Array_SlidingWindowMaximum.cpp` finds the maximum number in each subarray of size `k` in a given array.
+The algorithm in `Array_SlidingWindowMax.cpp` finds the maximum number in each subarray of size `k` in a given array.
 
 **Goal of Algorithm:**
 The aim of this algorithm is to find the maximum value in each subarray of size `k` for a given array. This is often referred to as a "sliding window maximum" problem.
