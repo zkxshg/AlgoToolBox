@@ -19,7 +19,7 @@ vector<int> Dijkstra(vector<vector<int>>& edges, int n) {
         int current_dist = nodes.top().second;
         nodes.pop();
 
-        if (current_dist > dist[v]) continue;
+        if (current_dist > dist[N]) continue;
 
         for (auto& p : path[N]) {
             int v = p.first, d = p.second;
