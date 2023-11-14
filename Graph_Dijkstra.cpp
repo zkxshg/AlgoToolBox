@@ -15,7 +15,11 @@ vector<int> Dijkstra(vector<vector<int>>& edges, int n) {
     nodes.push({0, 0});
 
     while (!nodes.empty()) {
-        int N =  nodes.top().first; nodes.pop();
+        int N = nodes.top().first;
+        int current_dist = nodes.top().second;
+        nodes.pop();
+
+        if (current_dist > dist[v]) continue;
 
         for (auto& p : path[N]) {
             int v = p.first, d = p.second;
