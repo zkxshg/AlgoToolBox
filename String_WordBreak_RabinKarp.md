@@ -1,4 +1,4 @@
-The algorithm implemented in `String_Rabin-Karp.cpp` is a variation of the Rabin-Karp algorithm. However, this variation is more similar to the word break problem, using dynamic programming to check if a given string can be segmented into words from a provided dictionary.
+The algorithm implemented in `String_WordBreak_RabinKarp.cpp` is a variation of the Rabin-Karp algorithm. However, this variation is more similar to the word break problem, using dynamic programming to check if a given string can be segmented into words from a provided dictionary.
 
 **Goal of Algorithm:**
 The main goal of this algorithm is to determine if the string `s` can be segmented into one or more words present in the `wordDict`.
