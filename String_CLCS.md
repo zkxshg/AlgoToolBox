@@ -19,7 +19,7 @@ The function returns an integer representing the length of the CLCS matching the
 
 2. **Successor Table:** It computes the successor table `stB` for sequence `B` using the `succTable` function. This table helps optimize the search process.
 
-3. **Diagonal LCS:** The algorithm performs a diagonal longest common subsequence search between sequences `A` and `B`. It iterates over all possible subsequences of `A` and `B`, updating the dynamic programming table `d_ijk` based on matches and mismatches.
+3. **Diagonal CLCS:** The algorithm performs a diagonal constrained longest common subsequence search between sequences `A` and `B`. It iterates over all possible subsequences of `A` and `B`, updating the dynamic programming table `d_ijk` based on matches and mismatches.
 
 **Time Complexity:**
 The time complexity of the algorithm depends on the lengths of sequences `A` and `B`, denoted as `m` and `n` respectively. The worst-case time complexity is O(m * n ).
