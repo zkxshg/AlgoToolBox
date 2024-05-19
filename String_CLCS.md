@@ -1,31 +1,30 @@
-## Algorithm Description: Diagonal Longest Common Subsequence (CLCS)
+The algorithm implemented in `Diagonal_CLCS.cpp` aims to find the length of the Constrained Longest Contiguous Subsequence (CLCS) between two sequences `A` and `B`, given a pattern `P`.
 
-The algorithm in `Diagonal_CLCS.cpp` is an implementation of a method for finding the longest common subsequence (CLCS) between two integer arrays using a diagonal approach.
+**Goal of Algorithm:**
+The primary goal of the algorithm is to determine the length of the longest contiguous subsequence that is common to both sequences `A` and `B`, while also matching a given constrained pattern `P`.
 
-### Goal of the Algorithm:
-The main goal is to find the length of the longest common subsequence between two given integer arrays.
+**Input:**
+The function `Diagonal_CLCS` takes several inputs:
+- Two integer arrays, `A` and `B`, representing the sequences to compare.
+- An integer array `P` representing the pattern to match within the common subsequence.
+- Integers `m`, `n,` and `r` representing the lengths of arrays `A,` `B,` and `P`, respectively.
+- An integer `alpha` indicating the range of characters in the sequences.
 
-### Input:
-The `Diagonal_CLCS` function takes three integer arrays `A`, `B`, and `P`, their lengths `m`, `n`, and `r` respectively, and an integer `alpha` representing the size of the alphabet.
+**Output:**
+The function returns an integer representing the length of the CLCS matching the pattern `P`.
 
-### Output:
-The `Diagonal_CLCS` function returns the length of the longest common subsequence between arrays `A` and `B`.
+**Algorithm Steps:**
 
-### Algorithm Steps:
+1. **Initialize:** The algorithm initializes a dynamic programming table `d_ijk` to store intermediate results. It sets initial values based on the lengths of sequences and the pattern.
 
-1. **Initialize**: Initialize a matrix `d_ijk` which stores the smallest column index for each diagonal.
-2. **Generate Successor Table**: Generate a successor table for array `B` using the `succTable` function. This table is used to quickly find the next position of a given character in `B`.
-3. **Iterate Over `A`**: Iterate over each character in array `A`.
-4. **Extend Subsequence**: For each character, try to extend the subsequence on each diagonal in `B`.
-5. **Update d_ijk**: Update `d_ijk` with the minimum of its current value and the next position of the current character in `B`.
-6. **Track Maximum Length**: Keep track of the maximum length of the subsequence found so far.
-7. **Termination Condition**: Continue the process until all characters in `A` are processed or the remaining characters in `A` are less than the maximum length of the subsequence found so far.
+2. **Successor Table:** It computes the successor table `stB` for sequence `B` using the `succTable` function. This table helps optimize the search process.
 
-### Time Complexity:
-The time complexity of the algorithm is O(mn), where `m` and `n` are the lengths of the input arrays.
+3. **Diagonal LCS:** The algorithm performs a diagonal longest common subsequence search between sequences `A` and `B`. It iterates over all possible subsequences of `A` and `B`, updating the dynamic programming table `d_ijk` based on matches and mismatches.
 
-### Space Complexity:
-The space complexity of the algorithm is O(mn), as it creates a successor table of size `m` by `n` and a matrix `d_ijk` of size `n` by `r`.
+**Time Complexity:**
+The time complexity of the algorithm depends on the lengths of sequences `A` and `B`, denoted as `m` and `n` respectively. The worst-case time complexity is O(m * n ).
 
-### Example:
-Given two arrays `A = [1, 2, 3, 4, 5]` and `B = [1, 3, 5]`, with alphabet size `alpha = 5`, calling `Diagonal_CLCS(A, B, 5, 3, 5)` will return `3`, which is the length of the longest common subsequence ("135").
+**Space Complexity:**
+The space complexity is O(n * r), where `n` is the length of sequence `B` and `r` is the length of the pattern `P`, due to the dynamic programming table.
+
+For example, given sequences `A = {1, 2, 3, 4, 1, 2, 3, 4, 1}` and `B = {1, 2, 3, 4, 1, 2, 1, 2, 3, 4}`, along with pattern `P = {1, 2, 3, 1, 1}`, the `Diagonal_CLCS` function will return the length of the CLCS matching the pattern, which in this case would be `5`.
